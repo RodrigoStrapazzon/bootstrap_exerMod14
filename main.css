@@ -1,0 +1,75 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #1abc9c;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1abc9c;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e8f8f5;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#introducao, #pacotes {
+    background-color: #e8f8f5;
+}
+
+.text-colored {
+    color: #1abc9c;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #1abc9c;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.destinations img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    .destinations img {
+        height: 200px;
+    }
+}
